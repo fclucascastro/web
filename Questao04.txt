@@ -1,0 +1,11 @@
+
+O Context pode resolver o problema de "props drilling" ao permitir 
+que você compartilhe dados diretamente entre componentes, sem precisar passar props 
+através de múltiplos níveis dependentes de pai pra filho, pois Props Drilling você precisa 
+passar dados de um componente pai para um componente filho que está profundamente aninhado,  
+Isso força a passagem de props por todos os componentes intermediários, mesmo que esses componentes não utilizem esses dados diretamente.
+
+
+hooks
+O hook useState permite que você adicione estado local a componentes funcionais.
+exemplo: const [state, setState] = React.useState(initialState);
